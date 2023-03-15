@@ -1,6 +1,8 @@
 import { BrowserRouter } from 'react-router-dom';
 import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas} from './components';
-
+// ADD NEW WORKS!
+// ADD VALIDATION!!!
+// Fix canvas if possible
 const App = () => {
   return (
     <BrowserRouter>
@@ -18,7 +20,7 @@ const App = () => {
         </main>
         <footer className='reletive z-0'>
           <Contact/>
-          <StarsCanvas/>
+          {/* <StarsCanvas/> */}
         </footer>
       </div>
     </BrowserRouter>
